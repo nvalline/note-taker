@@ -6,6 +6,9 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Serving Static Files
+app.use(express.static('public'));
+
 // Public Routes
 app.use('/', require('./routes/htmlRoutes'));
 
