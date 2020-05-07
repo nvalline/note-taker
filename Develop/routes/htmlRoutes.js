@@ -2,11 +2,6 @@ const express = require('express');
 const path = require('path');
 const routerHTML = express.Router();
 
-// const app = express();
-
-// // Serving Static Files
-// app.use(express.static('../public'));
-
 // GET Routes
 routerHTML.get('/', (req, res) => {
     res.status(200);
