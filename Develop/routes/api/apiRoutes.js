@@ -4,7 +4,8 @@ const routerAPI = express.Router();
 
 // API GET Routes
 routerAPI.get('/notes', (req, res) => {
-    res.send('API GET Route Hit');
+    // res.send('GET API Hit');
+    res.sendFile(path.join(__dirname, '../../db/db.json'));
 })
 
 // API POST Routes
