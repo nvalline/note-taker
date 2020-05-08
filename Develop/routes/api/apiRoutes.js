@@ -1,4 +1,5 @@
 const express = require('express');
+const fs = require('fs');
 const path = require('path');
 const routerAPI = express.Router();
 
@@ -10,7 +11,22 @@ routerAPI.get('/notes', (req, res) => {
 
 // API POST Routes
 routerAPI.post('/notes', (req, res) => {
-    res.send('Post API Hit');
+    console.log('req.body: ' + req.body)
+
+    fs.readFile(path.join(__dirname, '../../db/db.json'), 'utf8', (err, data) => {
+        if (err) throw err;
+
+        const dataArray = JSON.parse(data);
+        dataArray.push(req.body);
+
+        fs.writeFile(path.join(__dirname, '../../db/db.json'), JSON.stringify(dataArray), (err) => {
+            if (err) throw err;
+            console.log('success')
+        })
+
+        res.send('POST API Hit');
+    })
+
 })
 
 module.exports = routerAPI;
