@@ -2,7 +2,7 @@
 
 # Note Taker Application
 
-<img src="./images/note-taker.png" alt="Project Screenshot" max-height="500px">
+<img src="./Develop/images/note-taker.png" alt="Project Screenshot" max-height="500px">
 
 > This application will guide the user to generate a README markdown file for their project.
 
