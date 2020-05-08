@@ -1,76 +1,123 @@
-# Unit 11 Express Homework: Note Taker
+## Project Name
+
+# Note Taker Application
+
+<img src="./images/note-taker.png" alt="Project Screenshot" max-height="500px">
+
+> This application will guide the user to generate a README markdown file for their project.
+
+#### [View The Site](#) - The project is not live.
+
+---
+
+### Table of Contents
+
+Your section headers will be used to reference location of destination.
+
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [How To Use](#how-to-use)
+- [Test(s)](#tests)
+- [Contributors](#contributors)
+- [Questions](#questions)
+- [License](#license)
+
+---
 
 ## Description
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+This command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.  
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+To accomplish this, the user is prompted a series of questions in the command-line and the README file is then generated based on the information provided by the user. 
 
-* The following HTML routes should be created:
+[Back To The Top](#project-name)
 
-  * GET `/notes` - Should return the `notes.html` file.
+---
 
-  * GET `*` - Should return the `index.html` file
+## Technologies
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-* The following API routes should be created:
+- Javascript, node.js
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+[Back To The Top](#project-name)
 
-  * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+---
 
-  * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+## Installation
 
-## User Story
+Download the source files to the desired project directory. Open the terminal and navigate to the directory in the last step. Simply enter 'npm install', to install the necessary dependencies. 
 
-AS A user, I want to be able to write and save notes
+#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
 
-I WANT to be able to delete notes I've written before
+[Back To The Top](#project-name)
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+---
 
-## Business Context
+## How To Use
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+Once the dependencies are installed and the project is ready to have a README file generated, simply open the terminal and enter 'npm start'.  This will launch the application.  Follow the prompts that are presented in the terminal. Use the 'Enter/Return' key to submit the response to each prompt.
 
-## Acceptance Criteria
+#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
 
-Application should allow users to create and save notes.
+#### [View The Site](#) - The project is not live.
 
-Application should allow users to view previously saved notes.
+[Back To The Top](#project-name)
 
-Application should allow users to delete previously saved notes.
+---
 
-- - -
+## Tests
 
-## Commit Early and Often
+There are no tests.
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+[Back To The Top](#project-name)
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+---
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+## Contributors
 
-Follow these guidelines for committing:
+- Nate Valline
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+[Back To The Top](#project-name)
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+---
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+## Questions
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+Please contact the following for any questions.
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="35px">  =>  contact@natevalline.com
 
-## Submission on BCS
+[Back To The Top](#project-name)
 
-You are required to submit the following:
+---
 
-* The URL of the deployed application
+## License
 
-* The URL of the GitHub repository
+MIT License
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Copyright (c) 2020 Nate Valline
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Back To The Top](#project-name)
+
+---
+    
