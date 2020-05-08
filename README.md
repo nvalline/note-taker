@@ -35,7 +35,7 @@ The user is first presented with a landing page. From the landing page, the user
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/note-taker) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/note-taker)
 
 - Javascript, node.js, express.js, HTML, CSS
 
