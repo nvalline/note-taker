@@ -4,15 +4,13 @@
 
 <img src="./Develop/images/note-taker.png" alt="Project Screenshot" max-height="500px">
 
-> This application will guide the user to generate a README markdown file for their project.
+> This application allows the user to enter and save notes, view previous notes and delete notes that are no longer needed.
 
 #### [View The Site](#) - The project is not live.
 
 ---
 
 ### Table of Contents
-
-Your section headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Technologies](#technologies)
@@ -27,9 +25,9 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-This command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.  
+This application can be used to create, review and delete notes. Utilizing an express backend, the user can save and retrieve note data from a JSON file.  
 
-To accomplish this, the user is prompted a series of questions in the command-line and the README file is then generated based on the information provided by the user. 
+The user is first presented with a landing page. From the landing page, the user is able to navigate to a 'notes' page where the user can interact with the app to create, review and delete notes.  
 
 [Back To The Top](#project-name)
 
@@ -39,7 +37,7 @@ To accomplish this, the user is prompted a series of questions in the command-li
 
 ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-- Javascript, node.js
+- Javascript, node.js, express.js, HTML, CSS
 
 [Back To The Top](#project-name)
 
@@ -47,9 +45,9 @@ To accomplish this, the user is prompted a series of questions in the command-li
 
 ## Installation
 
-Download the source files to the desired project directory. Open the terminal and navigate to the directory in the last step. Simply enter 'npm install', to install the necessary dependencies. 
+Simply load the application in your browser by clicking this link.
 
-#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
+#### [View The Site](#) - The project is not live.
 
 [Back To The Top](#project-name)
 
@@ -57,11 +55,14 @@ Download the source files to the desired project directory. Open the terminal an
 
 ## How To Use
 
-Once the dependencies are installed and the project is ready to have a README file generated, simply open the terminal and enter 'npm start'.  This will launch the application.  Follow the prompts that are presented in the terminal. Use the 'Enter/Return' key to submit the response to each prompt.
-
-#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
-
-#### [View The Site](#) - The project is not live.
+Once the application is loaded in your browser follow these steps:
+- Click the 'Get Started' button on the home page
+- Enter your note title in the 'Note Title' field
+- Enter your note content in the 'Note Text' field
+- Click the computer disk icon to save your note
+- Your notes will be displayed on the left column where you are able to click on each note to view it's content
+- Click on the pen icon to create a new note
+- Click the red trashcan icon for the note that you wish to delete
 
 [Back To The Top](#project-name)
 
