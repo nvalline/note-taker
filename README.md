@@ -2,7 +2,7 @@
 
 # Note Taker Application
 
-<img src="./Develop/images/note-taker.png" alt="Project Screenshot" max-height="500px">
+<img src="./images/note-taker.png" alt="Project Screenshot" max-height="500px">
 
 > This application allows the user to enter and save notes, view previous notes and delete notes that are no longer needed.
 
