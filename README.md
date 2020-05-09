@@ -6,7 +6,7 @@
 
 > This application allows the user to enter and save notes, view previous notes and delete notes that are no longer needed.
 
-#### [View The Site](#) - The project is not live.
+#### [View The Site](https://peaceful-meadow-53544.herokuapp.com/) - The project is live.
 
 ---
 
@@ -47,7 +47,7 @@ The user is first presented with a landing page. From the landing page, the user
 
 Simply load the application in your browser by clicking this link.
 
-#### [View The Site](#) - The project is not live.
+#### [View The Site](https://peaceful-meadow-53544.herokuapp.com/) - The project is live.
 
 [Back To The Top](#project-name)
 
